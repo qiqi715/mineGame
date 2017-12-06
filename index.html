@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<style>
+
+</style>
+<script>
+    function doNothing(){
+        window.event.returnValue=false;
+        return false;
+    }
+</script>
+</head>
+<body oncontextmenu="doNothing()">
+<div class="wrap">
+    <div class="panel">
+        <input type="button" value="设置" class="sertting">
+        <input type="button" value="" class="close"></input>
+    </div>
+    <ul class="list clearfix">
+        <!--<li></li>-->
+    </ul>
+    <nav class="bottomNav">
+        <div class="clockBox left">
+            <span class="clock"></span>
+            <span class="num">0</span>
+        </div>
+        <div class="mineBox right">
+            <span class="num">10</span>
+            <span class="mine"></span>
+        </div>
+    </nav>
+
+    <div class="pop">
+        <!--<div class="popWrap">
+            <div class="topBox">
+                <span class="title">选项</span>
+                <input type="button" value="" class="close"></input>
+            </div>
+            <div class="bottomBox">
+                <div class="area">
+                    <span class="title">难度</span>
+                    <div class="contBox">
+                         <ul class="levelBox">
+                            <li>
+                                <p>初级</p>
+                                <p><label class="level"><input type="radio" name="level" checked>10个雷</label></p>
+                                <p>9×9平铺网络</p>
+                            </li>
+                            <li>
+                                <p>中级</p>
+                                <p><label class="level"><input type="radio" name="level">40个雷</label></p>
+                                <p>16×16平铺网络</p>
+                            </li>
+                            <li>
+                                <p>高级</p>
+                                <p><label class="level"><input type="radio" name="level">90个雷</label></p>
+                                <p>16×30平铺网络</p>
+                            </li>
+                        </ul>
+                        <ul class="levelBox levelBoxRight">
+                            <li>
+                                <p><label class="level"><input type="radio" type="level">自定义</label></p>
+                                <ul class="selfBox">
+                                    <li>
+                                        <span>高度(9-24)(H):</span>
+                                        <input type="text" value="9">
+                                    </li>
+                                    <li>
+                                        <span>宽度(9-30)(W):</span>
+                                        <input type="text" value="9">
+                                    </li>
+                                    <li>
+                                        <span>雷数(10-668)(M):</span>
+                                        <input type="text" value="10">
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="btns">
+                    <input type="button" value="确定" class="btnBlue ok">
+                    <input type="button" value="取消" class="btnGray undo">
+                </div>
+            </div>
+        </div>-->
+    </div>
+
+    <!--<div class="pop">
+        <div class="popWrap">
+            <div class="topBox">
+                <span class="title">游戏胜利</span>
+                <span class="close"></span>
+            </div>
+            <div class="bottomBox">
+                <p class="tip">恭喜你赢了!</p>
+                <ul class="info">
+                    <li>时间：100秒</li>
+                    <li>日期：2017/01/01</li>
+                </ul>
+                <div class="btns">
+                    <input type="button" value="再玩一局" class="btnBlue">
+                    <input type="button" value="退出" class="btnGray">
+                </div>
+            </div>
+        </div>
+    </div>-->
+</div>
+<script src="js/tween.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

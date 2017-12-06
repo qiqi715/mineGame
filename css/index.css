@@ -1,0 +1,268 @@
+body,
+p {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.close {
+    float: right;
+    margin-right: 2px;
+    width: 31px;
+    height: 17px;
+    background-image: url(../img/btnCLose.png);
+}
+.wrap {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 20px 20px;
+    padding-bottom: 0;
+    width: 504px;
+    background-color: #95a4c1;
+}
+.panel {
+    padding: 3px;
+    height: 20px;
+}
+.panel .sertting {
+    float: left;
+    border-radius: 3px;
+    width: 31px;
+    height: 17px;
+}
+.pop {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 54px;
+    transform: translateX(-50%);
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #000;
+    width: 460px;
+
+}
+.popWrap {
+    border: 1px solid #fff;
+    border-right-color: #3fcef2;
+    border-bottom-color: #3fcef2;
+    padding: 6px;
+    font: 12px/22px "宋体";
+    background-color: #bad2ea;
+}
+.pop .topBox {
+    height: 22px;
+}
+.pop .topBox .title{
+    float: left;
+    text-indent: 4px;
+}
+.pop .bottomBox {
+    padding-top: 1px;
+    background-color: #f0f0f0;
+}
+.pop .area {
+    position: relative;
+    margin: 21px 12px 0  15px;
+    border-radius: 3px;
+    border: 1px solid #d5dfe5;
+    height: 218px;
+}
+.pop .area .title {
+    position: absolute;
+    left: 5px;
+    top: -11px;
+    width: 28px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.pop .levelBox {
+    margin: 27px 0 0 10px;
+    float: left;
+}
+.pop .levelBox li {
+    text-indent: 16px;
+    line-height: 17px;
+    margin-bottom: 13px;
+}
+.pop .level {
+    display: block;
+    text-indent: 0;
+}
+.pop .level input {
+    float: left;
+    margin: 2px 4px 0 0;
+}
+.pop .levelBoxRight {
+    float: right;
+
+}
+.pop .selfBox {
+    padding: 2px 12px 0 20px;
+    line-height: 28px;
+}
+.pop .selfBox li {
+    margin-bottom: 8px;
+}
+.pop .selfBox input {
+    border-radius: 2px;
+    padding: 0 4px;
+    width: 62px;
+    height: 30px;
+    background-image: url(../img/bgInp.png);
+}
+.pop .btns {
+    padding:  15px 23px 15px 0;
+    height: 28px;
+    font-size: 0;
+    text-align: right;
+}
+.pop .btns input {
+    width: 124px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.pop .btns .btnBlue {
+    margin-right: 9px;
+    background-image: url(../img/btnBlue.png);
+}
+.pop .btns .btnGray {
+    background-image: url(../img/btnGray.png);
+}
+.pop .tip {
+    line-height: 42px;
+    text-align: center;
+}
+.pop .info {
+    padding-left: 12px;
+}
+.pop .info li {
+    line-height: 25px;
+}
+.list {
+}
+.list li {
+    float: left;
+    width: 56px;
+    height: 56px;
+    background-image: url(../img/normal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.list .hover {
+    background-image: url(../img/hover.png);
+}
+.list .flag {
+    background-image: url(../img/flag.png);
+}
+.list .flagHover {
+    background-image: url(../img/flagHover.png);
+}
+.list .flagTrue {
+    background-image: url(../img/flagTrue.png);
+}
+.list .flagFalse {
+    background-image: url(../img/flagFalse.png);
+}
+.list .ask {
+    background-image: url(../img/ask.png);
+}
+.list .askHover {
+    background-image: url(../img/askHover.png);
+}
+.list .fail {
+    background-image: url(../img/explodedMine.png);
+}
+.list .mineExpRed {
+    background-image: url(../img/MineExpRed.png);
+}
+.list .mineExp {
+    background-image: url(../img/mineExp.png);
+}
+.list .minusOne {
+    background-image: url(../img/num-1.png);
+}
+.list .zero {
+    background-image: url(../img/num0.png);
+}
+.list .one {
+    background-image: url(../img/num1.png);
+}
+.list .two {
+    background-image: url(../img/num2.png);
+}
+.list .three {
+    background-image: url(../img/num3.png);
+}
+.list .four {
+    background-image: url(../img/num4.png);
+}
+.list .five {
+    background-image: url(../img/num5.png);
+}
+.list .six {
+    background-image: url(../img/num6.png);
+}
+.list .seven {
+    background-image: url(../img/num7.png);
+}
+.list .eight {
+    background-image: url(../img/num8.png);
+}
+.bottomNav {
+    padding: 5px 0 15px;
+    height: 66px;
+}
+.bottomNav div span {
+    float: left;
+}
+.bottomNav .clock,
+.bottomNav .mine {
+    box-shadow: 0 0 30px #40607e;
+    border-radius: 50%;
+    width: 66px;
+    height: 66px;
+    background-repeat: no-repeat;
+}
+.bottomNav .clock {
+    margin-right: 30px;
+    background-image: url(../img/bgClock.png);
+}
+.bottomNav .mine {
+    margin-left: 30px;
+    background-image: url(../img/bgMine.png);
+}
+.bottomNav div .num {
+    box-shadow: 0 0 30px #213665,inset 0 0 10px #213665;
+    border-radius: 5px;
+    margin-top: 12px;
+    width: 112px;
+    height: 52px;
+    font: 36px/48px "微软雅黑";
+    text-align: center;
+    color: #fcfcfd;
+    background-color: #305397;
+}
